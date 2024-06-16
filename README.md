@@ -31,12 +31,12 @@ Este tutorial cobre o processo de configuração de uma instância EC2, anexaç�
 
 1. **Modificar Permissões da Chave PEM**
    ```sh
-   chmod 400 chave-nova2.pem
+   chmod 400 SUACHAVE.pem
    ```
 
 2. **Conectar à Instância**
    ```sh
-   ssh -i "chave.pem" ec2-user@seu-endereco-ipv4-publico
+   ssh -i "SUACHAVE" ec2-user@seu-endereco-ipv4-publico
    ```
 
 ## Passo 3: Anexar e Montar um Volume EBS
